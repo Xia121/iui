@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Xia121/iui/issues"
   },
-  "homepage": "https://github.com/Xia121/iui#readme"
+  "homepage": "https://github.com/Xia121/iui#readme",
+  "dependencies": {
+    "vue": "^2.5.22"
+  }
 }
