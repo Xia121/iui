@@ -38,4 +38,8 @@
 }
 .g-button.icon-left > .content {
   order: 2;
+}.g-icon {
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
 }
