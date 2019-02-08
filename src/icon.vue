@@ -1,12 +1,32 @@
 <template>
-    <svg class="g-icon">
+    <svg class="g-icon" @click="$emit('click', $event)">
         <use :xlink:href=`#i-${name}`></use>
     </svg>
 </template>
 
 <script>
     export default {
-        props: ['name']
+        name: 'GuluIcon',
+        props: ['name'],
+        /*data () {
+            return {
+                icon: this.name,
+                fille: true
+            }
+        },
+        mounted () {
+            this.filter()
+        },
+        methods: {
+            filter () {
+                let icon = this.icon.toString()
+                console.log(icon)
+                if (icon === "true" || icon ==="false" || icon==="undefind") {
+                    this.fille = false
+                }
+            }
+        },*/
+
     }
 </script>
 

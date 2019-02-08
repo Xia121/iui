@@ -30,17 +30,28 @@
 <link rel="stylesheet" href="/app.a6a4d504.css"></head>
 <body>
 <div id="app">
-    <g-button icon="settings" icon-position="right">
+    <g-button icon="settings" icon-position="right" :loading="loading1" @click="loading1 = !loading1">
         我爱中国
     </g-button>
-    <g-button>
+    <g-button icon="settings">
         我爱中国
     </g-button>
     <g-button icon="settings" icon-position="left">
         我爱中国
     </g-button>
+    <g-button-group>
+        <g-button icon="left" icon-position="left">
+            上一页
+        </g-button>
+        <g-button>
+            更多
+        </g-button>
+        <g-button icon="right" icon-position="right">
+            下一页
+        </g-button>
+    </g-button-group>
 </div>
 <script src="/app.a6a4d504.js"></script>
-<script src="//at.alicdn.com/t/font_1039312_m1r7801b3n.js"></script>
+<script src="//at.alicdn.com/t/font_1039312_paai4vxfrwh.js"></script>
 </body>
 </html>
