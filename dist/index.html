@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>iui</title>
-    <style>*{
+    <style>* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -19,17 +19,33 @@
             --border-color: #999;
             --border-color-hover: #666;
         }
+
         #app {
             margin: 20px;
         }
+
         body {
             font-size: var(--font-size);
+        }</style>
+    <style>.icon {
+            width: 1em;
+            height: 1em;
+            margin-top: .2em;
         }</style>
 <link rel="stylesheet" href="/app.a6a4d504.css"></head>
 <body>
 <div id="app">
-    <g-button></g-button>
+    <g-button icon="settings" icon-position="right">
+        我爱中国
+    </g-button>
+    <g-button>
+        我爱中国
+    </g-button>
+    <g-button icon="settings" icon-position="left">
+        我爱中国
+    </g-button>
 </div>
 <script src="/app.a6a4d504.js"></script>
+<script src="//at.alicdn.com/t/font_1039312_m1r7801b3n.js"></script>
 </body>
 </html>

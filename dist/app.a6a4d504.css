@@ -5,10 +5,37 @@
   border-radius: var(--button-radius);
   border: 1px solid var(--border-color);
   background: var(--button-bg);
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  vertical-align: middle;
 }
 .g-button:hover {
   border-color: var(--border-color-hover);
 }
 .g-button:active {
-  border-color: var(--button-active-bg);
+  border-color: var(--button-active-b g);
+}
+.g-button > .icon {
+  order: 1;
+  margin-right: 0.3em;
+}
+.g-button > .content {
+  order: 2;
+}
+.g-button.icon-right > .icon {
+  order: 2;
+  margin-left: 0.3em;
+  margin-right: 0;
+}
+.g-button.icon-right > .content {
+  order: 1;
+}
+.g-button.icon-left > .icon {
+  order: 1;
+  margin-left: 0;
+  margin-right: 0.3em;
+}
+.g-button.icon-left > .content {
+  order: 2;
 }
